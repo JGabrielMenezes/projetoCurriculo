@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* { margin: 0;
+  padding: 0;
+}
+
+.folha {
+  width: 45%;
+  height: 1000px;
+  margin: 30px;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  border:1px solid black;
+}
+
+.box-white {
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  margin:10px;
+}
+
+.imagem {
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  float: left;
+}
+
+.frente{
+  padding:10px;
+}
+
+.titulo h2 {
+  float: left;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-family: "roboto", sans-serif;
+  color: #19304F;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.titulo p {
+  padding-top: 70px;
+  padding-left: 135px;
+  flex-direction: row;
+  text-align: left;
+  color: #19304F;
+  font-size: 16px;
+  font-family: "roboto", sans-serif;
+}
+
+.frente {
+  flex-direction: row;
+}
+
+.aboutme {
+  flex-direction: row;
+  margin:10px;
+}
+
+.profile {
+  flex-direction:column;
+  justify-content:flex-start;
+}
+
+.profile h3{
+  padding:10px;
+  color: #19304F;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 16px; 
+}
+
+.profile p {
+  color: #222222;
+  border: 2px solid #FFFFFF;
+  text-align: justify;
+  font-family: roboto;
+  font-size: 16px;
+  padding:10px;
+}
+
+.educacao h3 {
+    font-size: 20px;
+    color: #19304F;
+    font-family: roboto;    
+}
+
+.educacao {
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+.educacao ul li {
+    color: #222222;
+    padding-top: 20px;  
+    font-family: roboto;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.ul2 {
+    margin-left: 20px;
+}
+
+.projeto h3 {
+    font-size: 20px;
+    color: #19304F;
+    font-family: roboto;
+    padding-top: 10px;
+}
+
+.projeto {
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+.projeto ul li{
+    color: #222222;
+    padding-top: 20px;
+    font-family: roboto;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.box-blue{
+    background-color: #19304F;
+    width: 35%;
+}
+
+.contato {
+    margin-left: 15%;
+}
+
+.contato h3 {
+    font-size: 20px;
+    font-family: roboto;
+    color: white;
+    margin-top: 40%;
+}
+
+.contato ol {
+    font-family: roboto;
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contato i {
+    color: white;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.conhecimento h3 {
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.conhecimento {
+    margin-left: 15%;
+}
+
+.conhecimento h3 {
+    font-size: 20px;
+    font-family: roboto;
+    color: white;
+    margin-top: 40%;
+}
+
+.conhecimento ol {
+    font-family: roboto;
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+    border-bottom: 2px solid #Fff;
+    width: 130px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #32517c;
+
+}
